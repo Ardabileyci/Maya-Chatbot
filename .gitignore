@@ -1,0 +1,23 @@
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+server/staticfiles/
+
+# Yedek arşivler
+*.zip
+
+# Editör / OS
+.DS_Store
+.cursor/
+.vscode/
+.idea/
